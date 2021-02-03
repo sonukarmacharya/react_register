@@ -1,0 +1,52 @@
+body {
+  font-family: cursive;
+  background-color: #161d6f;
+}
+
+.Main-container {
+  position: absolute;
+  left: 40%;
+  top: 20px;
+  border: 1px solid;
+  border-radius: 5%;
+  background-color: white;
+  
+}
+.Container {
+  border: 1px solid;
+  border-radius: 10%;
+}
+label {
+  font-size: 21px;
+}
+input[type="text"] {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 8px 0;
+  padding: 12px 2px;
+}
+input[type="text"]:hover{
+  background-color: #e8eae6;
+}
+input[type="submit"] {
+  background-color: #0a043c;
+  border: none;
+  font-family: cursive;
+  font-size: 20px;
+  color: white;
+  padding: 20px 32px;
+  text-decoration: none;
+  cursor: pointer;  
+  width: 100%;
+}
+input[type="submit"]:hover{
+  background-color: #03506f;
+ 
+}
+form {
+  padding:30px;
+}
+.danger{
+  color: red;
+}
